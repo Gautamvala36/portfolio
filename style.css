@@ -296,15 +296,15 @@ section {
 
 .img-hero img {
   position: relative;
-  width: 400px;
+  width: auto;
   height: auto;
   z-index: 10;
 }
 
 .rotate-text {
   position: absolute;
-  top: 4%;
-  left: -53px;
+  top: 5%;
+  left: -12px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1222,8 +1222,12 @@ footer {
   .input-box input {
     width: 100%;
   }
-  .rotate-text {
+  .rotate-text,
+  .img-hero {
     display: none;
+  }
+  .home, .portfolio-box {
+    flex-direction: unset;
   }
   .img-hero img {
     width: 100%;
